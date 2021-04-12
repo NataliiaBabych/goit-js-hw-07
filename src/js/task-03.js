@@ -22,7 +22,7 @@ const imagesElementMarkup = element => {
     const { url, alt } = element;
     return `
     <li class="items_style">
-      <img src="${url}" alt="${alt}">
+      <img src="${url}" alt="${alt}" class="image">
     </li>
     `;
 }
